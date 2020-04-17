@@ -1,0 +1,227 @@
+/* Andrew Strimaitis; strimait; 6578644210 */
+
+body {
+	padding: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	transform: preserve-3d;
+	margin: 0;
+}
+
+/* PAGE 1 MATERIAL */
+
+.image1 {
+	overflow: hidden;
+	background-image: url("snow1.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1300px 700px;	
+	height: 650px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.image1 img{
+	width: 10px;
+	height: 600px;
+}
+
+div.content1{
+	color: white;
+	font-weight: bold;
+	font-family: Future;
+	text-align: center;
+	position: center;
+	min-width: 950px;
+	height: 650px; /* controls height of pic*/
+}
+
+
+
+/* PAGE 2 MATERIAL */
+
+div.page2 {
+	background-color: white;
+	height: 1100px;
+	min-width: 950px; 
+	text-align: center;
+}
+
+table.center {
+	padding-top: 50px;
+	border-spacing: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* PAGE 2 IMAGES */
+.image2 {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.image2 img{
+	width: 600px;
+	height: 400px;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+.image3 {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.image3 img{
+	width: 600px;
+	height: 400px;
+	margin-left: -120px; /* moves the image*/
+	margin-right: -30px;
+}
+
+.image4 {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.image4 img{
+	width: 600px;
+	height: 400px;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+.image5 {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.image5 img{
+	width: 600px;
+	height: 400px;
+	margin-left: -100px;
+	margin-right: -100px;
+}
+
+/* PAGE 3 MATERIAL */
+
+div.page3 {
+	/* stagnant cover*/
+	background-image: url("snow6.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	width: 950px;
+	height: 500px;
+	position: center;
+	overflow: hidden;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 1200px 750px;	
+}
+
+
+.page3 img{
+	width: 750px;
+	height: 500px;
+}
+
+div.container {
+	color: white;
+	font-weight: bold;
+	font-family: Future;
+	text-align: center;
+	height: 650px;
+	position: center;
+	min-width: 950px;
+}
+
+
+/* PAGE 4 MATERIAL */
+div.page4 {
+	background-color: white;
+	height: 100px;
+}
+
+/* FONTS */
+p {
+	color: white;
+	font-family: Futura;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	padding: 0;	
+}
+
+p.box {
+	color: black;
+	margin: auto;
+	text-align: center;
+	vertical-align: 50%;
+	font-size: 14px;
+	height: 50px;
+	width: 125px;
+	background-color: white;
+}
+
+p.images {
+	font-size: 60%;
+	color: black;
+	font-weight: bold;
+	font-family: Future;
+	line-height: 1.7;	
+	text-align: center;
+	position: center;
+}
+
+
+p.last {
+	text-align: center;
+	transform-style: preserve-3d;
+	color: white;
+	font-family: Futura;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: URL('Futura_Heavy.ttf') format('truetype');
+}  
+
+h1 {
+	font-size: 350%;
+	text-align: center;
+	font-family: Futura;
+}
+
+h2 {
+	font-size: 150%;
+	display: inline-block;
+	font-family: Futura;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 0.1em;
+	vertical-align: center;
+	margin-right: 30px;
+}
+
+h3 {
+	font-size: 60%;
+	display: inline-block;
+	text-align: center;
+	margin-left: 30px;
+	font-family: Futura;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 0.1em;
+	vertical-align: center;
+}
