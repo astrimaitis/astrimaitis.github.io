@@ -12,7 +12,7 @@ body {
 
 .image1 {
 	overflow: hidden;
-	background-image: url("snow1.jpg");
+	background-image: url("turner1.JPG");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -115,7 +115,7 @@ table.center {
 
 div.page3 {
 	/* stagnant cover*/
-	background-image: url("snow6.jpg");
+	background-image: url("vilnius1.jpg");
 	margin-left: auto;
 	margin-right: auto;
 	background-position: center;
