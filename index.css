@@ -53,6 +53,7 @@ body {
   .carousel .item {
 	height: 1000px;
 	background-color: #777;
+
 	
   }
   .carousel-inner > .item > img {
@@ -63,7 +64,8 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 	min-height: 100%;
-
+	overflow-x: visible;
+	
   }
   
 
