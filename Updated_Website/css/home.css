@@ -30,12 +30,14 @@ div {
     font-style: oblique;
     font-size: medium;
     padding-top: 50px;
+    font-size: 250%;
   }
 
   .oasis h2 {
     /* Add shadows to create the "card" effect */
     color: white;
     font-style: oblique;
+    font-size: 350%;
   }
 
   .card {
